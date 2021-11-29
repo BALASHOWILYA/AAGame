@@ -6,10 +6,15 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
 
+    [SerializeField] private float forceMagnitude;
+    [SerializeField] private float maxVelocity;
+
+    private Rigidbody rb;
     private Camera MainCamera;
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
         MainCamera = Camera.main;
     }
 
