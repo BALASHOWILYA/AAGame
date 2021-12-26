@@ -471,6 +471,75 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5933648413205287535, guid: 0c96b086dbd8f5647806bfb7ee9b928a, type: 3}
+--- !u!1001 &1187456724696636169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183026738567407820, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1187103748073399408, guid: 687e39c044d316748ab2a36643bc3388,
+        type: 3}
+      propertyPath: m_Name
+      value: BlueAsteroid
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 687e39c044d316748ab2a36643bc3388, type: 3}
 --- !u!1 &5612153363320351729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3868989289349479774, guid: ee143634ca048474780eea9d0f7b8771,
