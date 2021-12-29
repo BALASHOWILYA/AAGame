@@ -19,9 +19,11 @@ public class AsteroidSpawner : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
+
         if(timer <= 0)
         {
             SpawnAsteroid();
+
             timer += secondsBetweenAsteroids;
         }
     }
